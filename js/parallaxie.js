@@ -13,8 +13,8 @@
 
         var options = $.extend({
             speed: 0.2,
-            repeat: 'no-repeat',
-            size: 'cover',
+            // repeat: 'no-repeat',
+             size: 'cover',
             pos_x: 'center',
             offset: 0,
         }, options );
