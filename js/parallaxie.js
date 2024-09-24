@@ -12,11 +12,11 @@
     $.fn.parallaxie = function( options ){
 
         var options = $.extend({
-            // speed: 0.2,
-            // repeat: 'no-repeat',
-            //  size: 'cover',
-            // pos_x: 'center',
-            // offset: 0,
+            speed: 0.2,
+            repeat: 'no-repeat',
+             size: 'cover',
+            pos_x: 'center',
+            offset: 0,
         }, options );
 
         this.each(function(){
