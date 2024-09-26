@@ -16,6 +16,7 @@
             repeat: 'no-repeat',
              size: 'cover',
             pos_x: 'center',
+            pos_y: 'center',
             offset: 0,
         }, options );
 
@@ -37,7 +38,7 @@
                     'background-image': image_url,
                     'background-size': local_options.size,
                     'background-repeat': local_options.repeat,
-                    'background-attachment': 'fixed',
+                    'background-attachment': 'scroll',
                     'background-position': local_options.pos_x + ' ' + pos_y + 'px',
                 });
 
